@@ -1,50 +1,15 @@
-
-Navigation Menu
-E-Commerce-Analysis
-
-Code
-Issues
-Pull requests
+#Project Overview:
 This project involves analyzing e-commerce data using SQL, Excel, and Power BI to derive insights and visualize key metrics. The main objectives are to identify trends, track sales performance, and provide a comprehensive overview of business operations.
 
-License
- Apache-2.0 license
- 1 star
- 2 forks
- 1 watching
- 1 Branch
- 0 Tags
- Activity
-Public repository
-pradeeshrajakumar/E-Commerce-Analysis
-Name	
-pradeeshrajakumar
-pradeeshrajakumar
-last year
-Excel
-last year
-Power BI
-last year
-SQL
-last year
-LICENSE
-last year
-README.md
-last year
-Repository files navigation
-README
-Apache-2.0 license
-E-Commerce Data Analytics Project
-Project Overview
-This project involves analyzing e-commerce data using SQL, Excel, and Power BI to derive insights and visualize key metrics. The main objectives are to identify trends, track sales performance, and provide a comprehensive overview of business operations.
-
-Tools and Technologies
+#Tools and Technologies:
 SQL: For querying the database to extract and manipulate data.
 Excel: For creating pivot charts and analyzing data from SQL queries.
 Power BI: For building interactive dashboards to visualize the data.
-Data Sources
+
+#Data Sources:
 E-commerce Database: Contains tables such as Orders, Customers, Products, and Sales.
-SQL Queries
+
+#SQL Queries:
 Credit Limit: Identifying customers' credit limits.
 Customers Affected by Late Shipping: Listing customers who have experienced late shipments.
 Customers Over Credit Limit: Finding customers who have exceeded their credit limit.
@@ -52,7 +17,8 @@ Office Sales by Customer Country: Summarizing sales by office and customer count
 Products Purchased Together: Analyzing products that are often bought together.
 Sales and Country Overview: Providing an overview of sales by country.
 Sales Value Change from Previous Order: Calculating the change in sales value from one order to the next.
-Excel Analysis
+
+#Excel Analysis;
 Pivot Charts: Created for each of the SQL queries to visualize the data. The charts include:
 Credit Limit Analysis
 Late Shipping Impact
@@ -81,13 +47,16 @@ This dashboard focuses on a more detailed analysis of net profit.
 Decomposition Tree: Analyzes net profit explained by customer country, product line, and customer name.
 Table: Shows a sales overview with columns such as Order Year, Order Month, Sales Value, Sales Value MoM%, and Sales Value YTD.
 Toggle Buttons: Switch between the two dashboards.
-How to Run the Project
+
+#How to Run the Project:
 Database Setup: Ensure you have access to the e-commerce database and the necessary permissions to run SQL queries.
 Run SQL Queries: Execute the provided SQL queries to extract the data needed for analysis.
 Excel Analysis: Import the SQL query results into Excel and create the pivot charts.
-Power BI Dashboards:
+
+#Power BI Dashboards:
 Import the data into Power BI.
 Follow the provided steps to create the visualizations and set up the slicers and toggle buttons.
 Interact with the Dashboards: Use the slicers and toggle buttons to explore the data and gain insights.
-Conclusion
+
+#Conclusion:
 This project showcases the use of SQL, Excel, and Power BI to analyze and visualize e-commerce data effectively. The insights derived can help in making informed business decisions.
