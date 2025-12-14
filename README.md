@@ -1,39 +1,93 @@
-Excel Data Analysis
-This section provides a step-by-step guide on how to utilize Excel for analyzing the e-commerce dataset. The analysis includes creating pivot charts based on SQL queries to derive meaningful insights.
 
-Steps to Analyze Data in Excel
-Import Data into Excel:
+Navigation Menu
+E-Commerce-Analysis
 
-Export the required data from MySQL by running the necessary SQL queries.
-Save the exported data as a CSV file.
-Open Excel and import the CSV file.
-Create Pivot Tables and Pivot Charts:
+Code
+Issues
+Pull requests
+This project involves analyzing e-commerce data using SQL, Excel, and Power BI to derive insights and visualize key metrics. The main objectives are to identify trends, track sales performance, and provide a comprehensive overview of business operations.
 
-Credit Limit Analysis:
-Insert a Pivot Table to summarize customer credit limits.
-Create a Pivot Chart to visualize credit limits across different customer segments.
-Late Shipping Analysis:
-Create a Pivot Table to list customers with late shipments.
-Generate a Pivot Chart to show the impact of late shipping on different customers.
-Over Credit Limit Analysis:
-Use a Pivot Table to highlight customers who exceeded their credit limits.
-Visualize this data with a Pivot Chart.
-Office Sales by Customer Country:
-Create a Pivot Table to analyze sales data by office and customer country.
-Develop a Pivot Chart to display sales distribution across countries.
-Products Purchased Together:
-Insert a Pivot Table to identify frequently bought together products.
-Visualize this with a suitable Pivot Chart.
-Sales and Country Overview:
-Generate a Pivot Table to provide an overview of sales by country.
-Use a Pivot Chart to present this data visually.
-Sales Value Change from Previous Order:
-Create a Pivot Table to calculate the change in sales value from previous orders.
-Visualize these changes with a Pivot Chart.
-Format Charts and Tables:
+License
+ Apache-2.0 license
+ 1 star
+ 2 forks
+ 1 watching
+ 1 Branch
+ 0 Tags
+ Activity
+Public repository
+pradeeshrajakumar/E-Commerce-Analysis
+Name	
+pradeeshrajakumar
+pradeeshrajakumar
+last year
+Excel
+last year
+Power BI
+last year
+SQL
+last year
+LICENSE
+last year
+README.md
+last year
+Repository files navigation
+README
+Apache-2.0 license
+E-Commerce Data Analytics Project
+Project Overview
+This project involves analyzing e-commerce data using SQL, Excel, and Power BI to derive insights and visualize key metrics. The main objectives are to identify trends, track sales performance, and provide a comprehensive overview of business operations.
 
-Apply consistent formatting to all charts and tables for better readability.
-Use conditional formatting to highlight key metrics and outliers.
+Tools and Technologies
+SQL: For querying the database to extract and manipulate data.
+Excel: For creating pivot charts and analyzing data from SQL queries.
+Power BI: For building interactive dashboards to visualize the data.
+Data Sources
+E-commerce Database: Contains tables such as Orders, Customers, Products, and Sales.
+SQL Queries
+Credit Limit: Identifying customers' credit limits.
+Customers Affected by Late Shipping: Listing customers who have experienced late shipments.
+Customers Over Credit Limit: Finding customers who have exceeded their credit limit.
+Office Sales by Customer Country: Summarizing sales by office and customer country.
+Products Purchased Together: Analyzing products that are often bought together.
+Sales and Country Overview: Providing an overview of sales by country.
+Sales Value Change from Previous Order: Calculating the change in sales value from one order to the next.
+Excel Analysis
+Pivot Charts: Created for each of the SQL queries to visualize the data. The charts include:
+Credit Limit Analysis
+Late Shipping Impact
+Customers Over Credit Limit
+Office Sales by Customer Country
+Products Purchased Together
+Sales and Country Overview
+Sales Value Change from Previous Order
+Power BI Dashboards
+Dashboard 1
+This dashboard provides a comprehensive analysis of sales and net profit.
 
+Clustered Bar Chart: Analyzes sales and net profit by product line.
+Scatter Chart: Analyzes net profit and sales by the cost of sale.
+Donut Chart: Analyzes sales and net profit by office country.
+Stacked Column Chart: Analyzes sales and net profit by customer country.
+Cards: Display total sales, count of unique orders, and average value per order.
+Trend Lines: Show trends by office country below each card.
+Slicers:
+Order Date Slicer: Filters charts and cards by order date.
+Product Line Slicer: Filters charts and cards by product line.
+Toggle Buttons: Switch between sales and net profit views in the charts.
+Dashboard 2
+This dashboard focuses on a more detailed analysis of net profit.
+
+Decomposition Tree: Analyzes net profit explained by customer country, product line, and customer name.
+Table: Shows a sales overview with columns such as Order Year, Order Month, Sales Value, Sales Value MoM%, and Sales Value YTD.
+Toggle Buttons: Switch between the two dashboards.
+How to Run the Project
+Database Setup: Ensure you have access to the e-commerce database and the necessary permissions to run SQL queries.
+Run SQL Queries: Execute the provided SQL queries to extract the data needed for analysis.
+Excel Analysis: Import the SQL query results into Excel and create the pivot charts.
+Power BI Dashboards:
+Import the data into Power BI.
+Follow the provided steps to create the visualizations and set up the slicers and toggle buttons.
+Interact with the Dashboards: Use the slicers and toggle buttons to explore the data and gain insights.
 Conclusion
-Using Excel for data analysis allows for detailed and interactive exploration of the e-commerce dataset. By following the steps outlined above, you can create comprehensive pivot charts and tables that provide valuable insights into various aspects of the business, from credit limits to sales performance across different countries.# E-commerce-Sql-data-analysis-
+This project showcases the use of SQL, Excel, and Power BI to analyze and visualize e-commerce data effectively. The insights derived can help in making informed business decisions.
